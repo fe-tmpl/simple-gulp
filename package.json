@@ -1,0 +1,26 @@
+{
+  "name": "simple-gulp",
+  "version": "1.0.0",
+  "description": "Gulp Demo about how to setup gulp in this project.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp ci-flow"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mean-engineering/simple-gulp.git"
+  },
+  "keywords": [],
+  "author": "Aquariuslt<superaquariuslt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mean-engineering/simple-gulp/issues"
+  },
+  "homepage": "https://github.com/mean-engineering/simple-gulp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rimraf": "^0.2.1",
+    "gulp-sequence": "^0.4.6",
+    "gulp-util": "^3.0.8"
+  }
+}
