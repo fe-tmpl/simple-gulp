@@ -15,3 +15,14 @@ npm i
 ```bash
 npm start
 ```
+
+
+### Async Task
+```bash
+npm run async-task
+```
+
+### Sync Task
+```bash
+npm run sync-task
+```

@@ -6,7 +6,16 @@
 
 
 var gulp = require('gulp');
+var gutil = require('gulp-util');
+var rimraf = require('gulp-rimraf');
+var sequence = require('gulp-sequence');
 
-gulp.task('clean',function() {
+var pathUtil = require('./utils/path-util');
 
+gulp.task('clean', sequence(['clean:build']));
+
+// sub tasks for clean
+gulp.task('clean:build', function() {
+  gutil.log('deleting build folder:public');
+  return gulp.src(pathUtil.resolve('public')).pipe(rimraf());
 });

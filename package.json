@@ -4,7 +4,9 @@
   "description": "Gulp Demo about how to setup gulp in this project.",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "gulp ci-flow"
+    "start": "gulp ci-flow",
+    "async-task": "gulp async-task",
+    "sync-task": "gulp sync-task"
   },
   "repository": {
     "type": "git",
@@ -18,9 +20,11 @@
   },
   "homepage": "https://github.com/mean-engineering/simple-gulp#readme",
   "devDependencies": {
+    "@types/gulp": "^3.8.11",
     "gulp": "^3.9.1",
     "gulp-rimraf": "^0.2.1",
     "gulp-sequence": "^0.4.6",
-    "gulp-util": "^3.0.8"
+    "gulp-util": "^3.0.8",
+    "mkdirp": "^0.5.1"
   }
 }
